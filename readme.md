@@ -2,19 +2,44 @@
 
 <h1 align="center"> rexom 🎶</h1>
 
-> Play your favorite playlist with rexom 🎶
+<h3 align="center"> Play your favorite playlist with rexom 🎶 </h3>
+
+## Features ✨
+
+There are many advantages that make you use reXom!!
+
+1. First Bot using `discord-buttons` like a controle panle
+2. Support's all new Discord interactions Updates (discord-buttons, slash-commands, context menu)
+3. Save Playlist on the bot database
+4. possibility to control all bot settings with commands (change prefix, change lang ['ar', 'en'], dj role)
+5. 30+ commands
+6. supports `700+` online music websites like Spotify and Soundcloud
+7. fast discord api connection
+8. distinguished message collector to play music
+
+## how to use reXom 🛠️
+
+Its easy to use reXom!!
+
+#### Requirements 📜
+
+1. Make You won discord bot
+
+first go to [Discord Developer Portal](https://discord.com/developers/applications/)
+login with your discord account
+press `new appliactin`
+type the appliactin name and press `Create`
+set your appliactin/bot icon and description/about me
+choose for navbar `Bot` option
+press `add bot` and `yes, do it!`
+Make sure the `PRESENCE INTENT` and `SERVER MEMBERS INTENT` options are enabled
+then choose for navbar `OAuth2`
+scroll down and choose `bot` and `applications.commands` options then scroll down more and choose the bot permissions you won't but i suggest `Administrator` and copy the url(this is the bot invite url)
+
+2. make sure you have [Git](https://git-scm.com/downloads), [VS Code](https://code.visualstudio.com/download), [nodejs](https://nodejs.org/en/download/current/) in your pc (this is only required if you using computer)
 
 
-## 📜 Requirements.
-
-1. Make Your own discord bot [from here](https://discord.com/developers/applications/)
-3. make sure you have [Git](https://git-scm.com/downloads), [VS Code](https://code.visualstudio.com/download), [nodejs](https://nodejs.org/en/download/current/) in yur pc (this is only required if you using computer)
-
-## 🚀 Getting Started.
-
-if you using [repl.it](https://www.replit.com/) soo you can fork the project [from here](https://replit.com/@NIR0/rexom?v=1)
-
-else if you using [glitch](https://www.glitch.com/) soo you can remix [from here](https://glitch.com/edit/#!/nttrexom)
+#### Get Started 🚀
 
 but if you using your computer soo follow this steps!
 
@@ -22,27 +47,56 @@ but if you using your computer soo follow this steps!
 2. press right click and chose `git bash here`
 3. then he well open a cmd for you type this command inside: `git clone https://github.com/DevelopersSupportAR/rexom.git`
 
-well done you forked the project in your pc
+well done you forked the project in your pc or fork it on replit
 
-1. find a folder could `config` and open the `bot.js` file (make sure if you using computer to open this file with `VS Code`)
+1. find a folder could `config` and open the `bot.json` file (make sure if you using computer to open this file with `VS Code`)
 2. you well find thar thing like this:
-```js
-require('dotenv').config()
 
-module.exports = {
-  token: process.env.TOKEN, // process the bot token from env file soo make a file outside all the files but in the bot source folder name it ".env" and type inside "TOKEN=Your Discord Bot Token"
-  prefix: process.env.PREFIX // process the bot prefix from env file soo go to your .env file and type inside "PREFIX=Your bot prefix"
-};
+```json
+{
+    "activity": {
+        "name": "<The Bot Activity Name>",
+        "type": "<The Bot Activity Type>"
+    },
+    "status": "<The Bot Status>",
+
+    "mainPrefix": "<The Bot Prefix>",
+    "mainLang": "<The Bot Lang>"
+}
 ```
 
-3. then install your packages if you using [repl.it](https://www.replit.com/) just press `Run` and he well install the packages for you but if you using [glitch](https://www.glitch.com/) soo this website is auto run and install your packages but if you using your computer soo open any cmd and go inside the bot source folder and type `npm install`
+when you finaly edit it go to `.env` file
+you well find thar thing like this:
 
-4. if you using [glitch](https://www.glitch.com/) or [replit](https://replit.com/) soo the bot have to be run successfully but if you using you computer soo type `npm start` in the same cmd you opened form installing packages
+```
+TOKEN="<The Bot Token Right Here(you will find it on discord developer portal)"
+```
 
-## 🌀 Support
+if you using replit just go to `secrits` on right
+and set `TOKEN` as a key
+then set `The Bot Token Right Here(you will find it on discord developer portal)` as a value
 
+
+#### Run The Project 🌀
+
+<<<<<<< HEAD
 Make sure if have any problem in this bot soo fell free to join [Developer Support](https://discord.gg/developer-support)
+=======
+if you using replit `download the github repositorie` then extract the file and drag the `node_modules` folder to replit files
+to edit `node_modules` files on replit (make sure you install all the packages you will need because you can't install any package after do that)
+now just wait a little alert from the website and press replace
+after that wait 5 seconds and press run
+will down
+>>>>>>> 18e7ef9c0e9458f7d13569ea507b8dc65f7d8ce6
 
-## ✨ Mad By
+if you using a pc copy `node_modules` folder away from the project folder and open the `install.bat` file to install the bot packages
+after it done go back to the `node_modules` that you copy, go inside it and copy all the files and folders form it and past it on the new `node_modules` folder and press replace
+now you can open `run.bat` file
+will done
+
+
+## Made By 🔌
 
 `@ニロ#3121`
+
+.
