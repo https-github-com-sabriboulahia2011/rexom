@@ -73,7 +73,7 @@ but if you using your computer soo follow this steps!
 
 1. make a new folder name it any thing
 2. press right click and chose `git bash here`
-3. then he well open a cmd for you type this command inside: `git clone https://github.com/DevelopersSupportAR/8Ticket.git`
+3. then he well open a cmd for you type this command inside: `git clone https://github.com/DevelopersSupportAR/rexom.git`
 
 well done you forked the project in your pc or fork it on replit
 
